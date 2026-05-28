@@ -27,8 +27,8 @@ test('Deve fazer login no Instagram', async ({ page }) => {
   // ==============================
   console.log('✍️ Inserindo usuário e senha...');
 
-  await inputUsuario.fill('fabi.ns6');
-  await inputSenha.fill('Mariaraimunda1@');
+  await inputUsuario.fill('seuusuario');
+  await inputSenha.fill('suasenha');
 
   // ==============================
   // 4. Clicar no botão Entrar
